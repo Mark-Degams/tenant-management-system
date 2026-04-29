@@ -1,3 +1,10 @@
+#Test files
 Backend/Test/
 
+#local database
 .db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

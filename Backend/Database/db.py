@@ -19,7 +19,7 @@ def init_db():
         CREATE TABLE IF NOT EXISTS rooms (
             room_id      INTEGER PRIMARY KEY AUTOINCREMENT,
             room_num     TEXT NOT NULL UNIQUE,
-            room type    TEXT NOT NULL CHECK(room_type IN ('Solo','Bedspacer')),
+            room_type    TEXT NOT NULL CHECK(room_type IN ('Solo','Bedspacer')),
             capacity     INTEGER NOT NULL,
             deposit      REAL NOT NULL,
             rent_summer  REAL NOT NULL,
